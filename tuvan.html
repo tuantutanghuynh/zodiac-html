@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8">
+    <title>Trang tư vấn cung hoàng đạo</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Trang tư vấn cá nhân hóa theo cung hoàng đạo</h1>
+      <p>Nhập thông tin để nhận dự đoán chiêm tinh riêng cho bạn</p>
+    </header>
+    <main>
+      <section class="form-section">
+        <h2>📌 Khảo sát nhanh</h2>
+        <form>
+          <label for="name">Họ và tên:</label>
+          <input type="text" id="name" name="name">
+
+          <label for="birth">Ngày sinh:</label>
+          <input type="date" id="birth" name="birth">
+
+          <label for="gender">Giới tính:</label>
+          <select id="gender" name="gender">
+            <option value="">-- Chọn --</option>
+            <option value="nam">Nam</option>
+            <option value="nu">Nữ</option>
+            <option value="khac">Khác</option>
+          </select>
+
+          <label for="zodiac">Chọn cung hoàng đạo</label>
+          <select id="zodiac" name="zodiac">
+            <option value="">-- Chọn Cung --</option>
+            <option value="aries">Bạch Dương ♈</option>
+            <option value="taurus">Kim Ngưu ♉</option>
+            <option value="gemini">Song Tử ♊</option>
+            <option value="cancer">Cự Giải ♋</option>
+            <option value="leo">Sư Tử ♌</option>
+            <option value="virgo">Xử Nữ ♍</option>
+            <option value="libra">Thiên Bình ♎</option>
+            <option value="scorpio">Bọ Cạp ♏</option>
+            <option value="sagittarius">Nhân Mã ♐</option>
+            <option value="capricorn">Ma Kết ♑</option>
+            <option value="aquarius">Bảo Bình ♒</option>
+            <option value="pisces">Song Ngư ♓</option>
+          </select>
+
+          <label for="question">Bạn muốn tư vấn về điều gì?</label>
+          <textarea id="question" name="question" rows="4"></textarea>
+
+          <input type="submit" value="Gửi yêu cầu">
+        </form>
+      </section>
+
+      <section class="resulttable">
+        <h2>📊 Một số đặc điểm nổi bật theo cung</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Cung</th>
+              <th>Nguyên tố</th>
+              <th>Ưu điểm</th>
+              <th>Khuyết điểm</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Bạch Dương</td><td>Lửa</td><td>Nhiệt tình, năng động</td><td>Nóng tính, hấp tấp</td></tr>
+            <tr><td>Kim Ngưu</td><td>Đất</td><td>Kiên định, thực tế</td><td>Bảo thủ, chậm chạp</td></tr>
+            <tr><td>Song Tử</td><td>Khí</td><td>Hoạt ngôn, thông minh</td><td>Thay đổi nhanh, thiếu ổn định</td></tr>
+            <tr><td>Cự Giải</td><td>Nước</td><td>Tình cảm, chăm sóc tốt</td><td>Dễ tổn thương, nhạy cảm</td></tr>
+            <tr><td>Sư Tử</td><td>Lửa</td><td>Lãnh đạo, tự tin</td><td>Kiêu ngạo, cứng đầu</td></tr>
+            <tr><td>Xử Nữ</td><td>Đất</td><td>Cẩn thận, tỉ mỉ</td><td>Khó tính, cầu toàn</td></tr>
+            <tr><td>Thiên Bình</td><td>Khí</td><td>Thân thiện, công bằng</td><td>Lưỡng lự, dễ bị ảnh hưởng</td></tr>
+            <tr><td>Bọ Cạp</td><td>Nước</td><td>Sâu sắc, trung thành</td><td>Ghen tuông, bí ẩn</td></tr>
+            <tr><td>Nhân Mã</td><td>Lửa</td><td>Lạc quan, mạo hiểm</td><td>Thiếu kiên nhẫn, bốc đồng</td></tr>
+            <tr><td>Ma Kết</td><td>Đất</td><td>Chăm chỉ, kỷ luật</td><td>Khô khan, cứng nhắc</td></tr>
+            <tr><td>Bảo Bình</td><td>Khí</td><td>Độc lập, sáng tạo</td><td>Khó hiểu, lạnh lùng</td></tr>
+            <tr><td>Song Ngư</td><td>Nước</td><td>Nhạy cảm, nhân ái</td><td>Dễ mơ mộng, thiếu thực tế</td></tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <footer>
+      <p style="text-align: center;">&copy; 2025 Chiêm tinh học 12 chòm sao</p>
+    </footer>
+  </body>
+</html>

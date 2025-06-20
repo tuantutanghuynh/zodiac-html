@@ -1,0 +1,76 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4b0082;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #aaa;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #dcd6f7;
+}
+
+.form-section {
+  margin-top: 40px;
+  background-color: #f4f0ff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+label, select, input, textarea {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  padding: 8px;
+}
+
+input[type="submit"] {
+  width: auto;
+  background-color: #4b0082;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+nav {
+  text-align: center;
+  margin-top: 30px;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #4b0082;
+  text-decoration: none;
+  font-weight: bold;
+}
